@@ -10,8 +10,9 @@ class Page
       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
       <html xmlns="http://www.w3.org/1999/xhtml">
         <head>
-          <title>2RGB :: Convert Hex to RGB and RGB to Hex</title>
+          <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
           <meta name="description" content="Easily convert hexadecimal colors to RGB colors and RGB colors to hexadecimal colors." />
+          <title>2RGB :: Convert Hex to RGB and RGB to Hex</title>
           <link rel="stylesheet" type="text/css" href="/stylesheets/reset.css" />
           <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
           <link rel="icon" type="image/png" href="/images/favicon.png" />
@@ -22,7 +23,7 @@ class Page
             <h2>an rgb &harr; hex color converter</h2>
             <form action="/index.html" method="post">
               <label for="color">rgb or hex:</label>
-              <input type="text" name="color" />
+              <input type="text" name="color" id="color" />
               <input type="submit" value="convert" />
             </form>
             #{results}
