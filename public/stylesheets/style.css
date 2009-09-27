@@ -32,7 +32,7 @@ h2 {
 /***** FORM STYLES *****/
 
 form {
-  width: 720px;
+  width: 750px;
   margin: 50px auto 5px auto;
   padding: 40px;
   text-align: center;
@@ -65,7 +65,7 @@ input[type='submit'] {
 /***** RESULTS STYLES *****/
 
 #results {
-  width: 720px;
+  width: 750px;
   margin: 50px auto 10px auto;
   text-align: center;
   padding: 40px;
