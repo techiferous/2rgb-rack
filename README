@@ -1,0 +1,13 @@
+h2. 2RGB -- An Example Rack Application
+
+h3. What It Is
+
+It's yet another website that converts colors between hex and rgb formats.
+
+h3. Why It Is
+
+There are two reasons this exists:
+
+# I wanted to publish a simple example Rack application that hopefully will help people
+  who are learning about Rack.
+# I disliked the usability of the existing hex to rgb calculator websites.
