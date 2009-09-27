@@ -1,0 +1,95 @@
+/***** MAIN STYLES *****/
+
+body {
+  background: #490202;
+  color: #289595;
+  font-family: Georgia, Times, serif;
+}
+
+div.container {
+  width: 950px;
+  margin: 30px auto 30px auto;
+}
+
+/***** HEADER STYLES *****/
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+h1 a {
+  color: #a44c4c;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  color: #a42c2c;
+  font-size: 20px;
+}
+
+/***** FORM STYLES *****/
+
+form {
+  width: 720px;
+  margin: 50px auto 5px auto;
+  padding: 40px;
+  text-align: center;
+  background: #001c1c;
+  border: 4px solid #012c2c;
+  font-size: 32px;
+}
+
+input {
+  padding: 7px 20px 7px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Georgia, Times, serif;
+  font-size: 32px;
+}
+
+input[type='text'] {
+  width: 280px;
+  background: #012c2c;
+  border-style: none;
+}
+
+input[type='submit'] {
+  background: #092121;
+  color: #289595;
+  border: 1px solid #012c2c;
+  cursor: pointer;
+}
+
+/***** RESULTS STYLES *****/
+
+#results {
+  width: 720px;
+  margin: 50px auto 10px auto;
+  text-align: center;
+  padding: 40px;
+  background: #1e2c01;
+  color: #85a24b;
+  border: 4px solid #2e4402;
+  font-size: 32px;
+}
+
+#arrow {
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #2e4402;
+}
+
+#error {
+  text-align: left;
+}
+
+#error ul {
+  margin: 25px 100px 10px 100px;
+  list-style-type: disc;
+}
+
+#error li {
+  line-height: 45px;
+}
