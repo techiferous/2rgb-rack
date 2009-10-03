@@ -81,6 +81,7 @@ class Page
             <li>rgb(255, 255, 255)</li>
             <li>255, 255, 255</li>
             <li>255 255 255</li>
+            <li>rgb(100%, 100%, 100%)</li>
             <li>#FFFFFF</li>
             <li>#ffffff</li>
             <li>#fff</li>
